@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { base } from "../utils/base";
 
 type Project = {
   title: string;
@@ -13,28 +14,28 @@ const projects: Project[] = [
   {
     title: "Rincón Integral",
     desc: "Sitio web profesional para negocio local con diseño moderno y optimización mobile.",
-    img: "/public/logo-rincon.png",
+    img: `${base}logo-rincon.png`,
     tech: ["HTML", "CSS", "JavaScript"],
     link: "https://fransiso95.github.io/rincon-integral/",
   },
   {
     title: "Vidriería Azar",
     desc: "Web para vidriería y marqueteria a pedidos con catálogo de productos.",
-    img: "/public/logo-azar.png",
+    img: `${base}logo-azar.png`,
     tech: ["HTML", "CSS", "JavaScript"],
     link: "https://fransiso95.github.io/Vidrieria-Azar/",
   },
   {
     title: "Libreria Rick & Morty",
     desc: "Web que consume la API de Rick & Morty para mostrar personajes, con búsqueda y paginación.",
-    img: "/public/logo-rick-morty.png",
+    img: `${base}logo-rick-morty.png`,
     tech: ["HTML", "CSS", "JavaScript"],
     link: "https://fransiso95.github.io/Proyecto-Js/",
   },
   {
     title: "BuscaMinas",
     desc: "Juego clásico de buscaminas implementado en JavaScript.",
-    img: "/public/logo-buscaminas.png",
+    img: `${base}logo-buscaminas.png`,
     tech: ["HTML", "CSS", "JavaScript"],
     link: "https://fransiso95.github.io/Proyecto-React/",
   },
@@ -58,7 +59,9 @@ export default function Projects() {
   }, []);
 
   return (
-    <section className="bg-black text-white px-6 md:px-16 py-24">
+    <section 
+    id="proyectos"
+    className="bg-black text-white px-6 md:px-16 py-24">
 
       <h2 className="text-4xl md:text-5xl font-bold mb-16">
         Proyectos <span className="text-gray-500">destacados</span>
