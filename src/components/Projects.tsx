@@ -39,6 +39,22 @@ const projects: Project[] = [
     tech: ["HTML", "CSS", "JavaScript"],
     link: "https://fransiso95.github.io/Proyecto-React/",
   },
+
+   {
+    title: "E-Commerce Full Stack",
+    desc: "Proyecto de e-commerce moderno con catálogo dinámico, carrito de compras y diseño responsive.",
+    img: `${base}ecommerce.png`,
+    tech: ["React", "TypeScript", "Tailwind", "Node.js"],
+    link: "https://fransiso95.github.io/e-commerce-proyect/",
+  },
+
+  {
+    title: "Titanic AI Predictor",
+    desc:"Aplicación desarrollada con Streamlit para análisis de datos y predicción de supervivencia utilizando Machine Learning.",
+    img: `${base}ia_predictoria_titanic.png`,
+    tech: ["Python", "Streamlit", "Pandas", "Scikit-Learn", "Plotly"],
+    link: "https://proyecto-app-hqpxw3bbvqzp7kibcgzrm2.streamlit.app/"    
+  },
 ];
 
 export default function Projects() {
