@@ -53,7 +53,7 @@ export default function About() {
         >
 
           <div className="bg-white/5 border border-white/10 p-6 rounded-xl backdrop-blur">
-            <h3 className="text-2xl font-bold text-red-500">+5</h3>
+            <h3 className="text-2xl font-bold text-red-500">+6</h3>
             <p className="text-gray-400 text-sm">Proyectos reales</p>
           </div>
 
