@@ -16,7 +16,7 @@ export default function Hero() {
         transition={{ duration: 0.6 }}
         className="text-red-500 tracking-[6px] text-sm mb-4"
       >
-        DESARROLLADOR WEB FRONTEND
+        DESARROLLADOR WEB FULLSTACK
       </motion.p>
 
       <motion.h1
